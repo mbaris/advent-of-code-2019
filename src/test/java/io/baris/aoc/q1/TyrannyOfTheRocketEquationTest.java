@@ -9,9 +9,9 @@ import java.util.stream.Stream;
 
 import static org.junit.Assert.assertEquals;
 
-public class Question1Test {
+public class TyrannyOfTheRocketEquationTest {
 
-    private Question1Solution solution = new Question1Solution();
+    private TyrannyOfTheRocketEquation solution = new TyrannyOfTheRocketEquation();
 
     @Test
     public void testForSampleInputForPart1() {

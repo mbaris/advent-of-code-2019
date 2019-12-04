@@ -6,12 +6,12 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.stream.Stream;
 
-public class Question1Solution {
+public class TyrannyOfTheRocketEquation {
 
     public static void main(String[] args) throws URISyntaxException, IOException {
         final String fileName = "moduleWeights.txt";
         final Stream<String> stream = FileUtil.readFileAsStream(fileName);
-        System.out.println(new Question1Solution().calculateSum(stream));
+        System.out.println(new TyrannyOfTheRocketEquation().calculateSum(stream));
     }
 
     public int calculateSum(Stream<String> stream) {
